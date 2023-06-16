@@ -20,12 +20,5 @@
         "storage",
         "activeTab",
         "scripting"
-    ],
-    "content_scripts": [
-        {
-          "matches": ["http://*/*", "https://*/*"],
-          "css": ["content.css"],
-          "run_at": "document_start"
-        }
-      ]
+    ]
 }
